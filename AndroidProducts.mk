@@ -5,13 +5,13 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/twrp_mi8937.mk \
-    $(LOCAL_DIR)/twrp_mi8937_4_19.mk
+    $(LOCAL_DIR)/twrp_holland1.mk \
+    $(LOCAL_DIR)/twrp_holland1_4_19.mk
 
 COMMON_LUNCH_CHOICES := \
-    twrp_mi8937-user \
-    twrp_mi8937-userdebug \
-    twrp_mi8937-eng \
-    twrp_mi8937_4_19-user \
-    twrp_mi8937_4_19-userdebug \
-    twrp_mi8937_4_19-eng
+    twrp_holland1-user \
+    twrp_holland1-userdebug \
+    twrp_holland1-eng \
+    twrp_holland1_4_19-user \
+    twrp_holland1_4_19-userdebug \
+    twrp_holland1_4_19-eng

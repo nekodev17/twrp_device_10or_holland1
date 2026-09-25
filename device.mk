@@ -12,7 +12,7 @@ endif
 MITHORIUM_LEGACY_CRYPTO := true
 
 # Inherit from mithorium-common
-$(call inherit-product, device/xiaomi/mithorium-common/mithorium.mk)
+$(call inherit-product, device/10or/mithorium-common/mithorium.mk)
 
 # Dynamic Partitions
 PRODUCT_USE_DYNAMIC_PARTITIONS := true

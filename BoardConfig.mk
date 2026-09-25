@@ -5,16 +5,16 @@
 #
 
 # Inherit from common mithorium-common
-include device/xiaomi/mithorium-common/BoardConfigCommon.mk
+include device/10or/mithorium-common/BoardConfigCommon.mk
 
-DEVICE_PATH := device/xiaomi/mi8937
-USES_DEVICE_XIAOMI_MI8937 := true
+DEVICE_PATH := device/10or/holland1
+USES_DEVICE_10OR_HOLLAND1 := true
 
 # Kernel
 ifeq ($(TARGET_KERNEL_VERSION),4.19)
-TARGET_PREBUILT_KERNEL := device/xiaomi/kernel-mithorium/mi8937_4_19/Image.gz-dtb
+TARGET_PREBUILT_KERNEL := $(LOCAL_PATH)/prebuilt/Image.gz-dtb/k419/Image.gz-dtb
 else
-TARGET_PREBUILT_KERNEL := device/xiaomi/kernel-mithorium/mi8937/Image.gz-dtb
+TARGET_PREBUILT_KERNEL := $(LOCAL_PATH)/prebuilt/Image.gz-dtb
 endif
 
 # Partitions

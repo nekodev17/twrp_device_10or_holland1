@@ -1,1 +1,1 @@
-# Device Tree for Xiaomi MSM8937 Devices (mi8937)
+# Device Tree for 10or E Device (holland1)

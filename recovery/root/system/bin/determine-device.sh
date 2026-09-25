@@ -7,8 +7,8 @@ workaround_gpio_flashlight() {
 	echo 0 > /sys/class/leds/flashlight/brightness;
 }
 
-set_device_codename "$(cat /sys/xiaomi-msm8937-mach/codename)"
-set_device_model "$(cat /sys/xiaomi-msm8937-mach/product_name)"
+set_device_codename "holland1"
+set_device_model "E"
 
 if [ "$(cat /sys/class/leds/flashlight/device/of_node/compatible)" == "qcom,leds-gpio-flash" ]; then
 	workaround_gpio_flashlight
