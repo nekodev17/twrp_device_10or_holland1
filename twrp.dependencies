@@ -1,6 +1,8 @@
 [
   {
-    "repository": "twrp_device_10or_mithorium-common",
-    "target_path": "device/10or/mithorium-common"
+    "remote": "github",
+    "repository": "nekodev17/twrp_device_10or_mithorium-common",
+    "target_path": "device/10or/mithorium-common",
+    "branch": "android-12.1"
   }
 ]
