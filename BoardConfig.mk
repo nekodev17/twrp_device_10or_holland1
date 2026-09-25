@@ -5,6 +5,9 @@
 #
 
 # Inherit from common mithorium-common
+
+DEVICE_PATH := device/10or/holland1
+
 include device/10or/mithorium-common/BoardConfigCommon.mk
 
 DEVICE_PATH := device/10or/holland1
@@ -12,9 +15,9 @@ USES_DEVICE_10OR_HOLLAND1 := true
 
 # Kernel
 ifeq ($(TARGET_KERNEL_VERSION),4.19)
-TARGET_PREBUILT_KERNEL := $(LOCAL_PATH)/prebuilt/Image.gz-dtb/k419/Image.gz-dtb
+TARGET_PREBUILT_KERNEL := $(DEVICE_PATH)/prebuilt/Image.gz-dtb/k419/Image.gz-dtb
 else
-TARGET_PREBUILT_KERNEL := $(LOCAL_PATH)/prebuilt/Image.gz-dtb
+TARGET_PREBUILT_KERNEL := $(DEVICE_PATH)/prebuilt/Image.gz-dtb
 endif
 
 # Partitions
